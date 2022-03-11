@@ -138,6 +138,7 @@ const showPosts = (posts) => {
     productsContainer.innerHTML = "";
 
     posts.forEach((post) => {
+      console.log(post)
         const div = createPost(post);
         productsContainer.appendChild(div);
     });
